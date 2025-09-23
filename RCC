@@ -1,0 +1,10 @@
+//Rust C Compilier
+//Orion Newell
+//Dumb project I wanted to work on to get better at understanding how a compiler works
+//using rust cause why not
+//9/23/25 - If you ever look back at this in the future this will be a long time ago
+
+
+fn main() {
+    println("Wip of a c ompilier written in rust")
+}
