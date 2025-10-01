@@ -5,6 +5,41 @@
 //9/23/25 - If you ever look back at this in the future this will be a long time ago
 
 
+use std::fs;
+use std::io;
+use regex::Regex;
+
+const DELEMITERS: &'static [&'static char] = &['{','}',')','(',';',];
+
+const struct Delimiter {
+    let s = ['{','}',')','(',';',','];
+}
+
+struct Token {
+    token: str,
+    size: u32,
+    delimiter: char[], //Stores the delimiting characters
+}
+
 fn main() {
     println("Wip of a c ompilier written in rust")
+
+}
+
+fn readContents(name: &filePath) -> io::Result<()> {
+    let contents = fs::read_to_string(filePath)?;
+    println!("File contents:\n{}", contents);
+    Ok(())
+}
+
+//Takes a string as an input
+//Returns an array of tokens based on the delimitng characters. 
+fn tokenize(&mut self, line: str) -> string[] {
+    let mut tokens = vec![];
+    self.p1.line 
+
+}
+
+fn parse(&str[]: string) {
+
 }
